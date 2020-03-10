@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="154" started-at="2020-03-07T14:53:00Z" finished-at="2020-03-07T14:53:00Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="154" started-at="2020-03-07T14:53:00Z" finished-at="2020-03-07T14:53:00Z">
+      <class name="surya.com.RestAPITest">
+        <test-method status="PASS" signature="browserAutomationAPI()[pri:0, instance:surya.com.RestAPITest@4cb2c100]" name="browserAutomationAPI" duration-ms="0" started-at="2020-03-07T14:53:00Z" finished-at="2020-03-07T14:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAutomationAPI -->
+        <test-method status="PASS" signature="validateLoginAPI()[pri:0, instance:surya.com.RestAPITest@4cb2c100]" name="validateLoginAPI" duration-ms="2" started-at="2020-03-07T14:53:00Z" finished-at="2020-03-07T14:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginAPI -->
+      </class> <!-- surya.com.RestAPITest -->
+      <class name="surya.com.SeleniumTest">
+        <test-method status="PASS" signature="browserAutomation()[pri:0, instance:surya.com.SeleniumTest@6fb554cc]" name="browserAutomation" duration-ms="0" started-at="2020-03-07T14:53:00Z" finished-at="2020-03-07T14:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAutomation -->
+        <test-method status="PASS" signature="validateLogin()[pri:0, instance:surya.com.SeleniumTest@6fb554cc]" name="validateLogin" duration-ms="1" started-at="2020-03-07T14:53:00Z" finished-at="2020-03-07T14:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+      </class> <!-- surya.com.SeleniumTest -->
+      <class name="surya.com.AppiumTest">
+        <test-method status="PASS" signature="browserAutomationAppium()[pri:0, instance:surya.com.AppiumTest@3f2a3a5]" name="browserAutomationAppium" duration-ms="24" started-at="2020-03-07T14:53:00Z" finished-at="2020-03-07T14:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAutomationAppium -->
+        <test-method status="PASS" signature="validateLoginAppium()[pri:0, instance:surya.com.AppiumTest@3f2a3a5]" name="validateLoginAppium" duration-ms="1" started-at="2020-03-07T14:53:00Z" finished-at="2020-03-07T14:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginAppium -->
+      </class> <!-- surya.com.AppiumTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
