@@ -11,4 +11,8 @@ public class RestAPITest {
 	public void validateLoginAPI() {
 		System.out.println("RestAPI Login");
 	}
+	@Test
+	public void validateLogin() {
+		System.out.println("This is a learning phase");
+	}
 }
