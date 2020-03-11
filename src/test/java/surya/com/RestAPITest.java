@@ -15,4 +15,8 @@ public class RestAPITest {
 	public void validateLogin() {
 		System.out.println("This is a learning phase");
 	}
+	@Test
+	public void validateLoginOne() {
+		System.out.println("This is a ONe phase");
+	}
 }
